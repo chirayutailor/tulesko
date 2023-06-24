@@ -1,0 +1,3 @@
+As part of this assignment, following object needs to be achieved
+1. Write your name using loop
+2. Write "Tulesko" using loop
