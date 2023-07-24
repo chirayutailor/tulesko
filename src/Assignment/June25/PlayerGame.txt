@@ -1,0 +1,5 @@
+# Guesser object guesses a number and passes it to an umpire object
+# Umpire stores guesser's number and ask all participants to guess the number. The umpire stores each participant's number
+# Once all the participants have provided the number, umpire will compare each participant's number with guesser number
+    => If any participant's number matches guesser's number then declare the participant as winner
+    => If no participant's number matches guesser's number then return failure message

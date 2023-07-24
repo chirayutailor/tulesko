@@ -2,4 +2,6 @@
 #   On which memory will garbage collector will work
 #   Can we have multiple classes with static void main method ?
 #   What is the difference between Error and Exception ?
-#
+#   Can I create overloaded method with same method name and same parameters ( with same data type ) but different return type ?
+    ==> Answer : No
+#   Features of Java 8, Java 11 and Java 17/
