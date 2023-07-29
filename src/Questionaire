@@ -14,10 +14,13 @@
     --> Memory for static variable is created during class loader while memory for member variable is created during object creation
     --> static variable memory cannot be cleared by garbage collector. Memory is cleared only when JVM exits the execution
 
-# Types of interfaces
+#   Types of interfaces
     ==> 3 types of interfaces: Normal interface, SAM ( Single Abstract Method ) interface ( ) and Marker Interface ( it has zero methods )
     ==> SAM interface example ( Runnable )
     ==> Marker interface example ( Serialize )
     ==> SAM interface is renamed to Functional interface in Java 8
     ==> Any interface having more than 1 method is called normal interface
-#
+
+#   When can I use Lambda ?
+    ==> Lambda works only with functional interface
+    ==> Lambda doesn't create analymous class within "out" folder so less code within build
