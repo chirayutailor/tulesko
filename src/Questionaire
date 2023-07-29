@@ -2,6 +2,22 @@
 #   On which memory will garbage collector will work
 #   Can we have multiple classes with static void main method ?
 #   What is the difference between Error and Exception ?
+
 #   Can I create overloaded method with same method name and same parameters ( with same data type ) but different return type ?
     ==> Answer : No
-#   Features of Java 8, Java 11 and Java 17/
+    ==> Overloading methods depends only method-name, number-of-arguments and its data-type. It doesn't consider the return type at all.
+
+#   Features of Java 8, Java 11 and Java 17
+
+#   Difference between static variable and member variable
+    --> Memory for static variable is created within heap area similar to member variable
+    --> Memory for static variable is created during class loader while memory for member variable is created during object creation
+    --> static variable memory cannot be cleared by garbage collector. Memory is cleared only when JVM exits the execution
+
+# Types of interfaces
+    ==> 3 types of interfaces: Normal interface, SAM ( Single Abstract Method ) interface ( ) and Marker Interface ( it has zero methods )
+    ==> SAM interface example ( Runnable )
+    ==> Marker interface example ( Serialize )
+    ==> SAM interface is renamed to Functional interface in Java 8
+    ==> Any interface having more than 1 method is called normal interface
+#
